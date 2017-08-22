@@ -16,8 +16,9 @@ namespace PizzaShopFixture
             ShoppingCart cart = new ShoppingCart(2);
             PizzaShop shop = new PizzaShop(cart);
             shop.PickItem(new VegPizza());
-            Assert.Equal(cart.ItemList.Count,1);
+            Assert.Equal(cart.CartItemList.Count,1);
         }
+
         [Fact]
         public void Item_removing_up_from_cart()
         {
@@ -26,7 +27,7 @@ namespace PizzaShopFixture
             IItem item = new VegPizza();
             shop.PickItem(item);
             shop.DropItem(item);
-            Assert.Equal(cart.ItemList.Count, 0);
+            Assert.Equal(cart.CartItemList.Count, 0);
         }
 
     }

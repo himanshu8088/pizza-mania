@@ -7,28 +7,31 @@ using System.Threading.Tasks;
 namespace PizzaShoppingMania
 {
     public class ShoppingCart : ICart
-    {
-        public List<IItem> ItemList { get; private set; }
+    {        
         private int _maxCartLimit;
+        private List<IItem> _itemList;
 
         public ShoppingCart(int maxCartLimit)
         {
             _maxCartLimit = maxCartLimit;
+            _itemList = new List<IItem>();
         }
+
+        public List<IItem> CartItemList => _itemList;
 
         public void Add(IItem item)
         {
-            if (ItemList.Count < _maxCartLimit)
+            if (_itemList.Count < _maxCartLimit)
             {
-                ItemList.Add(item);
+                _itemList.Add(item);
             }
         }
 
         public void Remove(IItem item)
         {
-            if (ItemList.Count >0)
+            if (_itemList.Count >0)
             {
-                ItemList.Remove(item);
+                _itemList.Remove(item);
             }
         }
     }

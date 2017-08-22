@@ -8,7 +8,7 @@ namespace PizzaShoppingMania
 {
     public interface ICart
     {
-        List<IItem> ItemList { get; }
+        List<IItem> CartItemList { get; }
         void Add(IItem item);
         void Remove(IItem item);
     }

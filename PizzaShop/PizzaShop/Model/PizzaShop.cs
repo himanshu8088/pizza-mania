@@ -31,7 +31,7 @@ namespace PizzaShoppingMania
 
         public void DropItem(IItem item)
         {
-            _pizzaCart.Add(item);
+            _pizzaCart.Remove(item);
         }
     }
 }
