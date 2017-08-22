@@ -44,11 +44,11 @@
     <Compile Include="Contracts\ICheckout.cs" />
     <Compile Include="Contracts\IItem.cs" />
     <Compile Include="Contracts\IShop.cs" />
-    <Compile Include="Pizza\NonVegPizza.cs" />
-    <Compile Include="Pizza\PizzaShop.cs" />
-    <Compile Include="Pizza\ShopCheckout.cs" />
-    <Compile Include="Pizza\ShoppingCart.cs" />
-    <Compile Include="Pizza\VegPizza.cs" />
+    <Compile Include="Model\NonVegPizza.cs" />
+    <Compile Include="Model\PizzaShop.cs" />
+    <Compile Include="Model\ShopCheckout.cs" />
+    <Compile Include="Model\ShoppingCart.cs" />
+    <Compile Include="Model\VegPizza.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

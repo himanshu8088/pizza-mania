@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaShop", "PizzaShop\PizzaShop.csproj", "{B2F1B390-1C2B-494A-962C-CA91BC0C11DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaShoppingMania", "PizzaShop\PizzaShoppingMania.csproj", "{B2F1B390-1C2B-494A-962C-CA91BC0C11DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaShoppingManiaFixture", "PizzaShopFixture\PizzaShoppingManiaFixture.csproj", "{14D3C6BA-D154-4B3E-B7C4-FDFD53A5E030}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B2F1B390-1C2B-494A-962C-CA91BC0C11DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F1B390-1C2B-494A-962C-CA91BC0C11DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F1B390-1C2B-494A-962C-CA91BC0C11DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D3C6BA-D154-4B3E-B7C4-FDFD53A5E030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D3C6BA-D154-4B3E-B7C4-FDFD53A5E030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D3C6BA-D154-4B3E-B7C4-FDFD53A5E030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D3C6BA-D154-4B3E-B7C4-FDFD53A5E030}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

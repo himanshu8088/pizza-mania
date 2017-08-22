@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PizzaShop
+namespace PizzaShoppingMania
 {
     public class PizzaShop : IShop
     {
@@ -33,7 +33,5 @@ namespace PizzaShop
         {
             _pizzaCart.Add(item);
         }
-
-
     }
 }
