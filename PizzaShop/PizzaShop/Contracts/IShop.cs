@@ -8,6 +8,7 @@ namespace PizzaShop
 {
     public interface IShop
     {
+        List<IItem> ItemList { get; }
         void PickItem(IItem item);
         void DropItem(IItem item);
     }

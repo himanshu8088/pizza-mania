@@ -46,6 +46,7 @@
     <Compile Include="Contracts\IShop.cs" />
     <Compile Include="Pizza\NonVegPizza.cs" />
     <Compile Include="Pizza\PizzaShop.cs" />
+    <Compile Include="Pizza\ShopCheckout.cs" />
     <Compile Include="Pizza\ShoppingCart.cs" />
     <Compile Include="Pizza\VegPizza.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -13,12 +13,16 @@ namespace PizzaShop
         public PizzaShop(ICart cart)
         {
             _pizzaCart = cart;
+            ItemList = _itemList;
         }
+
         private List<IItem> _itemList = new List<IItem>()
         {
             new VegPizza(),
             new NonVegPizza()
-        };          
+        };
+
+        public List<IItem> ItemList { get; private set; }
 
         public void PickItem(IItem item)
         {
@@ -29,5 +33,7 @@ namespace PizzaShop
         {
             _pizzaCart.Add(item);
         }
+
+
     }
 }

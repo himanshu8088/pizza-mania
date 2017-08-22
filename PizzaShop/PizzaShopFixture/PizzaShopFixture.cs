@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PizzaShop
+namespace PizzaShopFixture
 {
-    public interface ICheckout
-    {        
-        string PlaceOrder(int orderNo);        
+    public class Class1
+    {
     }
 }
